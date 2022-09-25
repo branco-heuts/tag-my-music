@@ -1,0 +1,7 @@
+customtkinter==4.5.10
+music_tag==0.4.3
+pandas==1.4.4
+python-dotenv==0.21.0
+spotipy==2.20.0
+tkhtmlview==0.1.1.post4
+tqdm==4.64.0
