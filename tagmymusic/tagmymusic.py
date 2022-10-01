@@ -55,8 +55,8 @@ def add_metadata(track, id3_tags):
     # Add comments
     try:
         id3_tags['comment'] = f"/* Library: {sp.music_library} " \
-                              f"/* Popularity: {music_dict[track]['popularity']} " \
-                              f"/* Danceability: {audio_features[0]['danceability']} " \
+                              f"/ Popularity: {music_dict[track]['popularity']} " \
+                              f"/ Danceability: {audio_features[0]['danceability']} " \
                               f"/ Energy: {audio_features[0]['energy']} " \
                               f"/ Happiness: {audio_features[0]['valence']} " \
                               f"/ Instrumentalness: {audio_features[0]['instrumentalness']} " \
